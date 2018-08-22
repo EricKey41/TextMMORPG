@@ -1,0 +1,18 @@
+public class Player {
+
+    private String class;
+    ptivate int    health;
+    private int    mana;
+    private String[] inventory;
+
+    Player(int class) {
+	switch (class) {
+	case 1: this.class = Mage;
+	    this.health = 100;
+	    this.mana = 150;
+	    this.inventory[] = {"5x Mana Pots" , "5x Health Pots"};
+	    break;
+	case 2: 
+	}
+	
+}
